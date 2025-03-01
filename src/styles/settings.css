@@ -1,0 +1,49 @@
+.container {
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin: 5px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: #00C851;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #ff4444;
+  color: #fff;
+}
+
+.error {
+  color: #ff4444;
+  font-size: 12px;
+  margin-top: 5px;
+}

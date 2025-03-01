@@ -1,0 +1,16 @@
+.landing-container {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .cta-buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .cta-buttons { flex-direction: column; }
+  }

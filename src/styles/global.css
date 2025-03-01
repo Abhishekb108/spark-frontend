@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .container {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-green {
+    background-color: #00C851;
+    color: #fff;
+  }
+  
+  .btn-gray {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  a {
+    color: #00C851;
+    text-decoration: none;
+  }
+  
+  .toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+    font-size: 14px;
+  }
+  
+  .toast.success {
+    background-color: #00C851;
+    color: #fff;
+  }
+  
+  .toast.error {
+    background-color: #ff4444;
+    color: #fff;
+  }
+  
+  .toast .close {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .spark-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00C851;
+    margin-bottom: 20px;
+    text-align: center;
+  }
