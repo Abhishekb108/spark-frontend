@@ -35,5 +35,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Mini Link Management Platform (Spark) - Frontend developed with assistance from Grok 3, created by xAI"
 }
